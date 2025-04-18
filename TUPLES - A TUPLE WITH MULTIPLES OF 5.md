@@ -21,11 +21,9 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 
 ### PROGRAM
 
-```python
-def create_tuple(N):
-    multiples_of_5 = tuple(i for i in range(5, N, 5))
-    return multiples_of_5
+```
+```
 
-N = int(input("Enter a number: "))
-result = create_tuple(N)
-print(f"{result}")
+### OUTPUT
+
+### RESULT
