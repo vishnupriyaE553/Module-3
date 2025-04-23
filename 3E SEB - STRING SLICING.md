@@ -1,4 +1,4 @@
-# Exp.No:15  
+# Exp.No:3e
 ## SEB - STRING SLICING
 
 ---
