@@ -1,4 +1,4 @@
-# Exp.No:13  
+# Exp.No:3c
 ## LIST - EVEN NUMBERS LIST
 
 ---
