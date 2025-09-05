@@ -7,11 +7,12 @@ To write a Python program to find sequences of Upper case letters joined with a 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Read a string input from the user and store it in a.
-3. Define a function find_match(s) that uses re.fullmatch() to check if the string matches the pattern [a-z]+@[a-z]+.
-4. If the pattern matches, print "Found a match!", otherwise print "Not matched!".
-Call the function find_match(user_input) and terminate the program.
-5. Terminate the program.
+2. Accept a string 'a' from the user.
+3. Define the regular expression pattern as r'[A-Z]+@'.
+4. Use the re.search() function to check if the string a is found in the pattern.
+5. If a match is found, print "Found a match!".
+6. If no match is found, print "Not matched!".
+7. Terminate the program.
 
 ### PROGRAM
 ```
@@ -27,5 +28,7 @@ else:
     print("Not matched!")
 ```
 ### OUTPUT
+<img width="924" height="377" alt="image" src="https://github.com/user-attachments/assets/e6ffa97a-0648-4c20-9c87-4d41c2715c33" />
 
 ### RESULT
+Thus a Python program using regular expressions was executed and implemented successfully.
