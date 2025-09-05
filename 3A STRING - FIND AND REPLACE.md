@@ -1,30 +1,29 @@
 # Exp.No:3a
-## STRING - FIND AND REPLACE
-
----
+## STRING - FIND AND Split
 
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
-
----
+To write a Python function that accepts a string, splits it into words, and displays the list of words.
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Input the original string `str1` and the word to be replaced `replace_str`.  
-3. Ask the user to input the new replacement word `str2`.  
-4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
-5. Store the modified string in `str3`.  
-6. Display the original string (`str1`) and the modified string (`str3`).  
-7. Terminate the program.
-
----
+2. Read a string input from the user and store it in email.
+3. Define a function splitstring(email) that splits the string at "@" using split() and stores the result in result.
+4. Print the result list.
+5. Terminate the program.
 
 ### PROGRAM
-
 ```
+Reg.No: 212223060305
+Name: Vishnu Priya E
+
+def splitstring(email):
+    result = email.split("@")
+    print(result)
 ```
 
 ### OUTPUT
+<img width="847" height="219" alt="image" src="https://github.com/user-attachments/assets/b6fe6dab-9d3d-4e13-ab77-4da336acfd9c" />
 
 ### RESULT
+The program splits the input string at "@" and displays the resulting parts as a list.
