@@ -1,30 +1,31 @@
 # Exp.No:3e
-## SEB - STRING SLICING
-
----
+## SEB - PATTERN MATCHING USING REGEX
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
-
----
+To write a Python program to find sequences of Upper case letters joined with a '@'.
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
-
----
+2. Read a string input from the user and store it in a.
+3. Define a function find_match(s) that uses re.fullmatch() to check if the string matches the pattern [a-z]+@[a-z]+.
+4. If the pattern matches, print "Found a match!", otherwise print "Not matched!".
+Call the function find_match(user_input) and terminate the program.
+5. Terminate the program.
 
 ### PROGRAM
-
 ```
-```
+Reg.No: 212223060305
+Name: Vishnu Priya E
 
+import re
+a=str(input())
+pattern=r'[A-Z]+@'
+if re.search(pattern,a):
+    print("Found a match!")
+else:
+    print("Not matched!")
+```
 ### OUTPUT
 
 ### RESULT
